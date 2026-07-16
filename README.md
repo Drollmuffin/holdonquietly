@@ -45,4 +45,4 @@ checks this repo's Releases feed on launch and applies updates in the background
 It runs locally on your machine. Details in the [Privacy Policy](./PRIVACY.md) and
 [Terms of Service](./TERMS.md).
 
-Made by **devuandoru**. © 2026.
+Made by **[dwindles](https://github.com/dwindles)**. © 2026.
