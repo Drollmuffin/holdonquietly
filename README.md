@@ -1,64 +1,48 @@
-<h1 align="center">🪟 holdonquietly</h1>
+<h1><img src=".github/icons/star.svg" width="26" align="absmiddle" alt=""> holdonquietly</h1>
 
-<p align="center">
-  <b>A liquid-glass desktop widget for Windows — your stats, media, automation, local projects and people, floating quietly on your desktop.</b>
-</p>
+A liquid-glass desktop widget for Windows. Your stats, your media, your automation,
+your local projects and your people — sitting quietly on the desktop.
 
-<p align="center">
-  <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-0b0d18">
-  <img alt="tech" src="https://img.shields.io/badge/built%20with-C%23%20%2B%20WPF-512bd4">
-  <img alt="dotnet" src="https://img.shields.io/badge/.NET-8-512bd4">
-  <img alt="updates" src="https://img.shields.io/badge/auto--update-Velopack-8b7cf7">
-  <img alt="price" src="https://img.shields.io/badge/price-free-3fb950">
-</p>
-
-<p align="center">
-  <a href="https://github.com/Drollmuffin/holdonquietly/releases/latest"><b>⬇ Download for Windows</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://drollmuffin.github.io/holdonquietly/">Website</a>
-  &nbsp;·&nbsp;
-  <a href="./PRIVACY.md">Privacy</a>
-  &nbsp;·&nbsp;
-  <a href="./TERMS.md">Terms</a>
-</p>
+[Download](https://github.com/Drollmuffin/holdonquietly/releases/latest) ·
+[Site](https://drollmuffin.github.io/holdonquietly/) ·
+[Privacy](./PRIVACY.md) ·
+[Terms](./TERMS.md)
 
 ---
 
-## What is holdonquietly?
+## <img src=".github/icons/planet.svg" width="18" align="absmiddle" alt=""> Install
 
-**holdonquietly** is a frosted, liquid-glass **desktop widget for Windows** that sits quietly on your desktop and puts the things you glance at all day in one beautiful floating panel — live hardware stats, whatever's playing, a toolbox of automation utilities, a one-click runner for your local projects, and a people/persona presence. Think of it as a lightweight, gorgeous **system monitor + media remote + automation deck** in a single iOS-style glass surface.
+Download **`holdonquietly-win-Setup.exe`** from [Releases](https://github.com/Drollmuffin/holdonquietly/releases/latest)
+and run it once. It drops Start-menu and desktop shortcuts, then updates itself
+silently from then on.
 
-## ✨ Features
+Windows 10/11, x64.
 
-- 📊 **Live system stats** — CPU, GPU, RAM, disk, network, temperatures, per-core load and history, at a glance.
-- 🎵 **Media control** — play / pause, seek, and switch sources for whatever's playing on your PC (via Windows' system media transport).
-- ⚙️ **Automation tools** — auto-clicker, macro record/playback, key presser, timers, an on-screen color picker, and quick notes.
-- 🚀 **Run local projects** — scaffold and launch bots, websites, APIs and more on your own machine with zero setup (bundled Node runtime; optional local AI via Ollama).
-- 👥 **People & personas** — see who's online, with a persona you pick — name, status, emoji — and Discord Rich Presence.
-- 🎨 **Make it yours** — 13 accent themes, adjustable opacity, and a subtle glass shimmer.
-- ⬆️ **Silent auto-update** — installs once, then updates itself in the background via [Velopack](https://velopack.io).
+> <img src=".github/icons/caution.svg" width="15" align="absmiddle" alt=""> Unsigned indie build — SmartScreen will flag the first run. **More info → Run anyway**.
 
-## 🚀 Install
+## <img src=".github/icons/biohazard.svg" width="18" align="absmiddle" alt=""> What it does
 
-1. Download **`holdonquietly-win-Setup.exe`** from the [**Releases**](https://github.com/Drollmuffin/holdonquietly/releases/latest) page.
-2. Run it once — it adds Start-menu + desktop shortcuts and installs the widget.
-3. From then on it **auto-updates itself** silently on launch.
+- **Live system stats** — CPU, GPU, RAM, disk, network, temperatures, per-core load
+  and history, at a glance.
+- **Media control** — play, pause, seek and switch sources for whatever's playing on
+  the machine, through Windows' system media transport.
+- **Automation** — auto-clicker, macro record/playback, key presser, timers, an
+  on-screen colour picker, quick notes.
+- **Local project runner** — scaffold and launch bots, sites and APIs on your own box
+  with no setup. Bundled Node runtime; optional local models via Ollama.
+- **People and personas** — who's online, under a persona you pick, plus Discord Rich
+  Presence.
+- **Yours** — 13 accent themes, adjustable opacity, a subtle glass shimmer.
 
-> **Requirements:** Windows 10/11 (x64).
-> A first-run SmartScreen warning is normal for a new indie build — **More info → Run anyway**.
+## <img src=".github/icons/helix.svg" width="18" align="absmiddle" alt=""> Updates
 
-## 🔄 How updates work
+Packaged and shipped with [Velopack](https://velopack.io). Every release carries full
+and delta packages, so an existing install only pulls what actually changed. The widget
+checks this repo's Releases feed on launch and applies updates in the background.
 
-Releases are packaged and published with **Velopack** — each release carries full + delta packages so existing installs update by downloading only what changed. The app checks this repo's Releases feed on startup and applies updates in the background.
+## Privacy
 
-## 🔐 Privacy
-
-holdonquietly runs locally on your machine. See the [Privacy Policy](./PRIVACY.md) and [Terms of Service](./TERMS.md) for details.
-
-## 📄 Credits
+It runs locally on your machine. Details in the [Privacy Policy](./PRIVACY.md) and
+[Terms of Service](./TERMS.md).
 
 Made by **devuandoru**. © 2026.
-
----
-
-<p align="center"><sub>desktop widget · Windows system monitor · CPU/GPU/RAM/temperature overlay · media controls · desktop automation · auto-clicker · macro recorder · Discord Rich Presence</sub></p>
