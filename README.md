@@ -1,48 +1,35 @@
 <h1><img src=".github/icons/star.svg" width="26" align="absmiddle" alt=""> holdonquietly</h1>
 
-A liquid-glass desktop widget for Windows. Your stats, your media, your automation,
-your local projects and your people — sitting quietly on the desktop.
+a see-through desktop widget for windows. ur pc stats, whats playing, an auto clicker n macros, ur local projects n discord, all in one small window on the desktop
 
-[Download](https://github.com/Drollmuffin/holdonquietly/releases/latest) ·
-[Site](https://drollmuffin.github.io/holdonquietly/) ·
-[Privacy](./PRIVACY.md) ·
-[Terms](./TERMS.md)
+[download](https://github.com/Drollmuffin/holdonquietly/releases/latest) ·
+[site](https://drollmuffin.github.io/holdonquietly/) ·
+[privacy](./PRIVACY.md) ·
+[terms](./TERMS.md)
 
----
+## install
 
-## <img src=".github/icons/planet.svg" width="18" align="absmiddle" alt=""> Install
+grab **`holdonquietly-win-Setup.exe`** from [releases](https://github.com/Drollmuffin/holdonquietly/releases/latest) n run it once. it makes start menu n desktop shortcuts, then updates itself in the background
 
-Download **`holdonquietly-win-Setup.exe`** from [Releases](https://github.com/Drollmuffin/holdonquietly/releases/latest)
-and run it once. It drops Start-menu and desktop shortcuts, then updates itself
-silently from then on.
+windows 10 or 11, 64 bit
 
-Windows 10/11, x64.
+> its not signed, so smartscreen flags it the first time. click **more info**, then **run anyway**
 
-> <img src=".github/icons/caution.svg" width="15" align="absmiddle" alt=""> Unsigned indie build — SmartScreen will flag the first run. **More info → Run anyway**.
+## what it does
 
-## <img src=".github/icons/biohazard.svg" width="18" align="absmiddle" alt=""> What it does
+- **stats:** cpu, gpu, ram, disk, network n temps, plus per core load n history
+- **media:** play, pause, seek n switch whatever is playing on the pc, thru windows media controls
+- **automation:** auto clicker, record n play back macros, key presser, timers, a colour picker for anything on screen, quick notes
+- **local projects:** start bots, sites n apis on ur own pc w no setup. node comes with it, n ollama is optional if u want local models
+- **people:** see whos online under a persona u pick, plus discord rich presence
+- **looks:** 13 accent colours, an opacity slider n a glass shimmer
 
-- **Live system stats** — CPU, GPU, RAM, disk, network, temperatures, per-core load
-  and history, at a glance.
-- **Media control** — play, pause, seek and switch sources for whatever's playing on
-  the machine, through Windows' system media transport.
-- **Automation** — auto-clicker, macro record/playback, key presser, timers, an
-  on-screen colour picker, quick notes.
-- **Local project runner** — scaffold and launch bots, sites and APIs on your own box
-  with no setup. Bundled Node runtime; optional local models via Ollama.
-- **People and personas** — who's online, under a persona you pick, plus Discord Rich
-  Presence.
-- **Yours** — 13 accent themes, adjustable opacity, a subtle glass shimmer.
+## updates
 
-## <img src=".github/icons/helix.svg" width="18" align="absmiddle" alt=""> Updates
+it ships w [velopack](https://velopack.io). every release has full n delta packages, so an update only downloads what changed. it checks this repos releases when it opens n updates in the background
 
-Packaged and shipped with [Velopack](https://velopack.io). Every release carries full
-and delta packages, so an existing install only pulls what actually changed. The widget
-checks this repo's Releases feed on launch and applies updates in the background.
+## privacy
 
-## Privacy
+everything runs on ur pc. details are in the [privacy policy](./PRIVACY.md) n the [terms](./TERMS.md)
 
-It runs locally on your machine. Details in the [Privacy Policy](./PRIVACY.md) and
-[Terms of Service](./TERMS.md).
-
-Made by **[dwindles](https://github.com/dwindles)**. © 2026.
+made by **[dwindles](https://github.com/dwindles)** © 2026
